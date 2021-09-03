@@ -58,17 +58,39 @@
     "url": "https://search.dev.judilibre.io/healthcheck",
     "icon": "https://favicons.githubusercontent.com/search.dev.judilibre.io",
     "slug": "api-judilibre-recette",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.85%",
+    "uptimeDay": "99.85%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.85%",
+    "uptimeYear": "99.85%",
     "time": 739,
     "timeDay": 739,
     "timeWeek": 739,
     "timeMonth": 739,
     "timeYear": 739,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-09-03": 0
+    }
+  },
+  {
+    "name": "API judilibre (recette, Piste)",
+    "url": "https://sandbox-api.piste.gouv.fr/minju/judilibre/v1.0",
+    "icon": "https://favicons.githubusercontent.com/sandbox-api.piste.gouv.fr",
+    "slug": "api-judilibre-recette-piste",
+    "status": "degraded",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 795,
+    "timeDay": 795,
+    "timeWeek": 795,
+    "timeMonth": 795,
+    "timeYear": 795,
+    "dailyMinutesDown": {
+      "2021-09-03": 30
+    }
   }
 ]
