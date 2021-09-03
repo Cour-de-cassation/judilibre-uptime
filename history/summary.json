@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 518,
-    "timeDay": 518,
-    "timeWeek": 518,
-    "timeMonth": 518,
-    "timeYear": 518,
+    "time": 566,
+    "timeDay": 566,
+    "timeWeek": 566,
+    "timeMonth": 566,
+    "timeYear": 566,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 695,
-    "timeDay": 695,
-    "timeWeek": 695,
-    "timeMonth": 695,
-    "timeYear": 695,
+    "time": 607,
+    "timeDay": 607,
+    "timeWeek": 607,
+    "timeMonth": 607,
+    "timeYear": 607,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 512,
-    "timeDay": 512,
-    "timeWeek": 512,
-    "timeMonth": 512,
-    "timeYear": 512,
+    "time": 558,
+    "timeDay": 558,
+    "timeWeek": 558,
+    "timeMonth": 558,
+    "timeYear": 558,
     "dailyMinutesDown": {}
   },
   {
@@ -58,19 +58,19 @@
     "url": "https://search.dev.judilibre.io/healthcheck",
     "icon": "https://favicons.githubusercontent.com/search.dev.judilibre.io",
     "slug": "api-judilibre-recette",
-    "status": "down",
-    "uptime": "99.85%",
-    "uptimeDay": "99.85%",
-    "uptimeWeek": "99.85%",
-    "uptimeMonth": "99.85%",
-    "uptimeYear": "99.85%",
-    "time": 739,
-    "timeDay": 739,
-    "timeWeek": 739,
-    "timeMonth": 739,
-    "timeYear": 739,
+    "status": "up",
+    "uptime": "90.10%",
+    "uptimeDay": "90.10%",
+    "uptimeWeek": "90.10%",
+    "uptimeMonth": "90.10%",
+    "uptimeYear": "90.10%",
+    "time": 502,
+    "timeDay": 502,
+    "timeWeek": 502,
+    "timeMonth": 502,
+    "timeYear": 502,
     "dailyMinutesDown": {
-      "2021-09-03": 0
+      "2021-09-03": 37
     }
   },
   {
@@ -78,19 +78,20 @@
     "url": "https://sandbox-api.piste.gouv.fr/minju/judilibre/v1.0",
     "icon": "https://favicons.githubusercontent.com/sandbox-api.piste.gouv.fr",
     "slug": "api-judilibre-recette-piste",
-    "status": "degraded",
+    "status": "down",
     "uptime": "0.00%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 795,
-    "timeDay": 795,
-    "timeWeek": 795,
-    "timeMonth": 795,
-    "timeYear": 795,
+    "time": 695,
+    "timeDay": 695,
+    "timeWeek": 695,
+    "timeMonth": 695,
+    "timeYear": 695,
     "dailyMinutesDown": {
-      "2021-09-03": 30
+      "2021-09-04": 36,
+      "2021-09-03": 314
     }
   }
 ]

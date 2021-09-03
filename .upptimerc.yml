@@ -6,25 +6,30 @@ sites:
   - name: API judilibre (prod)
     url: https://search.judilibre.io/healthcheck
     expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: disponible
     maxResponseTime: 700
   - name: API judilibre (prod, principal)
     url: https://search.prod-par2.judilibre.io/healthcheck
     expectedStatusCodes: [200]
     maxResponseTime: 700
+    __dangerous__body_down_if_text_missing: disponible
   - name: API judilibre (prod, secours)
     url: https://search.prod-par1.judilibre.io/healthcheck
     expectedStatusCodes: [200]
     maxResponseTime: 700
+    __dangerous__body_down_if_text_missing: disponible
   - name: API judilibre (recette)
     url: https://search.dev.judilibre.io/healthcheck
     expectedStatusCodes: [200]
     maxResponseTime: 700
+    __dangerous__body_down_if_text_missing: disponible
   - name: API judilibre (recette, Piste)
     url: https://sandbox-api.piste.gouv.fr/minju/judilibre/v1.0
     expectedStatusCodes: [200]
     headers:
       - "KeyId: $API_KEY_RECETTE"
     maxResponseTime: 700
+    __dangerous__body_down_if_text_missing: disponible
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -33,8 +38,8 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Statut API Judilibre
-  introTitle: "**API Judilibre** est l'API de recherche de l'open data des décisions judiciaires développé par la Cour de cassation"
-  introMessage: Cette page présente le statut de l'API, à l'aide de l'outil [Uptime.js.org](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**API Judilibre** - Cour de cassation"
+  introMessage: Cette page présente le statut de l'API Judilibre, qui publie l'open data des décisions judiciaires, à l'aide de l'outil [Uptime.js.org](https://github.com/upptime/upptime).
   navbar:
     - title: Statut
       href: /
