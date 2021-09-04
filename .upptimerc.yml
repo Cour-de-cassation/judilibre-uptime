@@ -44,7 +44,7 @@ status-website:
     - title: Statut
       href: /
     - title: GitHub
-      href: https://github.com/Cour-de-cassation/judilibre-search
+      href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
