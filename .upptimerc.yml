@@ -7,28 +7,28 @@ sites:
     url: https://search.judilibre.io/healthcheck
     expectedStatusCodes: [200]
     __dangerous__body_down_if_text_missing: disponible
-    maxResponseTime: 700
+    maxResponseTime: 2000
   - name: API judilibre (prod, principal)
     url: https://search.prod-par2.judilibre.io/healthcheck
     expectedStatusCodes: [200]
-    maxResponseTime: 700
+    maxResponseTime: 2000
     __dangerous__body_down_if_text_missing: disponible
   - name: API judilibre (prod, secours)
     url: https://search.prod-par1.judilibre.io/healthcheck
     expectedStatusCodes: [200]
-    maxResponseTime: 700
+    maxResponseTime: 2000
     __dangerous__body_down_if_text_missing: disponible
   - name: API judilibre (recette)
     url: https://search.dev.judilibre.io/healthcheck
     expectedStatusCodes: [200]
-    maxResponseTime: 700
+    maxResponseTime: 2000
     __dangerous__body_down_if_text_missing: disponible
   - name: API judilibre (recette, Piste)
-    url: https://sandbox-api.piste.gouv.fr/minju/judilibre/v1.0
+    url: https://sandbox-api.piste.gouv.fr/minju/judilibre/v1.0/healthcheck
     expectedStatusCodes: [200]
     headers:
       - "KeyId: $API_KEY_RECETTE"
-    maxResponseTime: 700
+    maxResponseTime: 2000
     __dangerous__body_down_if_text_missing: disponible
 
 status-website:
