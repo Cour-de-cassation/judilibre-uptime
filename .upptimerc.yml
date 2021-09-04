@@ -3,27 +3,27 @@ owner: upptime # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: API judilibre (prod)
+  - name: search.judilibre.io healthcheck
     url: https://search.judilibre.io/healthcheck
     expectedStatusCodes: [200]
     __dangerous__body_down_if_text_missing: disponible
     maxResponseTime: 2000
-  - name: API judilibre (prod, principal)
+  - name: search.prod-par2.judilibre.io healthcheck
     url: https://search.prod-par2.judilibre.io/healthcheck
     expectedStatusCodes: [200]
     maxResponseTime: 2000
     __dangerous__body_down_if_text_missing: disponible
-  - name: API judilibre (prod, secours)
+  - name: search.prod-par1.judilibre.io healthcheck
     url: https://search.prod-par1.judilibre.io/healthcheck
     expectedStatusCodes: [200]
     maxResponseTime: 2000
     __dangerous__body_down_if_text_missing: disponible
-  - name: API judilibre (recette)
+  - name: search.dev.judilibre.io healthcheck
     url: https://search.dev.judilibre.io/healthcheck
     expectedStatusCodes: [200]
     maxResponseTime: 2000
     __dangerous__body_down_if_text_missing: disponible
-  - name: API judilibre (recette, Piste)
+  - name: sandbox-api.piste.gouv.fr healthcheck
     url: https://sandbox-api.piste.gouv.fr/minju/judilibre/v1.0/healthcheck
     expectedStatusCodes: [200]
     headers:
