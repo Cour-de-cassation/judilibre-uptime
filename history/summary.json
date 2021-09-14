@@ -76,19 +76,19 @@
     "url": "https://sandbox-api.piste.gouv.fr/minju/judilibre/v1.0/healthcheck",
     "icon": "https://favicons.githubusercontent.com/sandbox-api.piste.gouv.fr",
     "slug": "sandbox-api-piste-gouv-fr-healthcheck",
-    "status": "degraded",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1291,
-    "timeDay": 2076,
-    "timeWeek": 1360,
-    "timeMonth": 1291,
-    "timeYear": 1291,
+    "status": "up",
+    "uptime": "99.95%",
+    "uptimeDay": "99.47%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.95%",
+    "uptimeYear": "99.95%",
+    "time": 1243,
+    "timeDay": 1605,
+    "timeWeek": 1283,
+    "timeMonth": 1243,
+    "timeYear": 1243,
     "dailyMinutesDown": {
-      "2021-09-14": 0
+      "2021-09-14": 8
     }
   }
 ]
