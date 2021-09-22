@@ -36,7 +36,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: uptime.judilibre.io
   # baseUrl: /your-repo-name
-  logoUrl: https://www.courdecassation.fr/squelettes-dist/images/courdecassation_logo.png
+  logoUrl: /assets/Logo_judilibre.svg
   name: Statut API Judilibre
   introTitle: "**API Judilibre** - Cour de cassation"
   introMessage: Cette page présente le statut de l'API Judilibre, qui publie l'open data des décisions judiciaires, à l'aide de l'outil [Uptime.js.org](https://github.com/upptime/upptime).
