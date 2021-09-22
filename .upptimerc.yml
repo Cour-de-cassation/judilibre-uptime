@@ -24,7 +24,7 @@ sites:
     maxResponseTime: 2000
     __dangerous__body_down_if_text_missing: disponible
   - name: sandbox-api.piste.gouv.fr healthcheck
-    url: https://sandbox-api.piste.gouv.fr/minju/judilibre/v1.0/healthcheck
+    url: https://sandbox-api.piste.gouv.fr/cassation/judilibre/v1.0/healthcheck
     expectedStatusCodes: [200]
     headers:
       - "KeyId: $API_KEY_RECETTE"
