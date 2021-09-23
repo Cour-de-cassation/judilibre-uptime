@@ -58,9 +58,9 @@
     "url": "https://search.dev.judilibre.io/healthcheck",
     "icon": "https://favicons.githubusercontent.com/search.dev.judilibre.io",
     "slug": "search-dev-judilibre-io-healthcheck",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -69,25 +69,28 @@
     "timeWeek": 737,
     "timeMonth": 732,
     "timeYear": 732,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-09-23": 0
+    }
   },
   {
     "name": "sandbox-api.piste.gouv.fr healthcheck",
     "url": "https://sandbox-api.piste.gouv.fr/cassation/judilibre/v1.0/healthcheck",
     "icon": "https://favicons.githubusercontent.com/sandbox-api.piste.gouv.fr",
     "slug": "sandbox-api-piste-gouv-fr-healthcheck",
-    "status": "up",
+    "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "99.92%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.94%",
-    "time": 1220,
-    "timeDay": 1073,
-    "timeWeek": 1301,
-    "timeMonth": 1220,
-    "timeYear": 1220,
+    "time": 1214,
+    "timeDay": 1068,
+    "timeWeek": 1280,
+    "timeMonth": 1214,
+    "timeYear": 1214,
     "dailyMinutesDown": {
+      "2021-09-23": 0,
       "2021-09-20": 8,
       "2021-09-14": 8
     }
