@@ -55,6 +55,180 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  css: |
+    *,*::before,*::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      min-width: 0;
+      min-height: 0;
+    }
+
+    html {
+        font-size: 62.5%;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-text-size-adjust: 100%;
+        overflow-wrap: break-word;
+    }
+
+    body {
+        margin: 0;
+        font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        background-color: #ffffff;
+        color: #212529;
+    }
+
+    h1,.h1-like,h2,.h2-like,h3,.h3-like,h4,.h4-like,h5,.h5-like,h6,.h6-like {
+        color: #212529;
+    }
+
+    a {
+        color: #454d5d;
+        text-decoration: underline;
+    }
+
+    a:focus,a:hover,a:active {
+        color: #212529;
+        text-decoration: underline;
+    }
+    h1,.h1-like,h2,.h2-like {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    p,address,ol,ul,dl,blockquote,pre,h3,.h3-like,h4,.h4-like,h5,.h5-like,h6,.h6-like,dt,dd {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    ol ol,ol ul,ul ol,ul ul,li ul,li ol,nav ul,nav ol,li p,li .p-like {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    ul,ol {
+        padding-left: 2rem;
+    }
+
+    nav ul,nav ol {
+        list-style: none;
+        padding: 0;
+    }
+    img,table,td,blockquote,pre,code,input,textarea,select,video,svg,iframe {
+        max-width: 100%;
+    }
+
+    iframe,img,input,select,textarea {
+        height: auto;
+    }
+
+    img {
+        border-style: none;
+    }
+
+    iframe {
+        border-style: none;
+    }
+
+    svg:not([fill]) {
+        fill: currentColor;
+    }
+
+    svg:not(:root) {
+        overflow: hidden;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    hr {
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible;
+        border: 0;
+        border-top: 1px solid;
+        margin: 2rem 0;
+        clear: both;
+        color: inherit;
+    }
+
+    table {
+        width: 100%;
+        max-width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        vertical-align: top;
+        margin-bottom: 2rem;
+    }
+
+    @font-face {
+        font-family: "open-sans";
+        font-weight: 400;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Regular.eot) format("eot"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Regular.woff) format("woff"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Regular.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: "open-sans";
+        font-weight: 600;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Semibold.eot) format("eot"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Semibold.woff) format("woff"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Semibold.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: "open-sans";
+        font-weight: 700;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Bold.eot) format("eot"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Bold.woff) format("woff"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Bold.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: "open-sans";
+        font-style: italic;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Italic.eot) format("eot"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Italic.woff) format("woff"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Italic.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: "open-sans";
+        font-weight: 300;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Light.eot) format("eot"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Light.woff) format("woff"),url(https://www.courdecassation.fr/themes/custom/ccass/fonts/OpenSans/OpenSans-Light.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: poppins;
+        font-weight: 700;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/Poppins/Poppins-Bold.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: poppins;
+        font-weight: 400;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: poppins;
+        font-weight: 500;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/Poppins/Poppins-Medium.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: poppins;
+        font-weight: 300;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/Poppins/Poppins-Light.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: poppins;
+        font-weight: 600;
+        src: url(https://www.courdecassation.fr/themes/custom/ccass/fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
+    }
+
+    body {
+        font-size: 1.4rem;
+        font-family: open-sans,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    }
+
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
