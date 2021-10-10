@@ -55,9 +55,6 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-  links:
-    - rel: stylesheet
-      href: https://www.courdecassation.fr/files/css/css_fWctMRTdSXSa_Mbucl31EIdhQ_n3wv1gJTBk2mhVIcE.css
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
