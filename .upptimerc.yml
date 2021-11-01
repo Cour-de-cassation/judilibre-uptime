@@ -2,7 +2,6 @@
 owner: Cour-de-cassation # Your GitHub organization or username, where this repository lives
 repo: judilibre-uptime # The name of this repository
 
-runner: [self-hosted, linux, x64]
 sites:
   - name: www.courdecassation.fr recherche-judilibre
     url: https://www.courdecassation.fr/recherche-judilibre
