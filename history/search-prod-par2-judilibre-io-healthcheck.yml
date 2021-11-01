@@ -1,7 +1,7 @@
 url: https://search.prod-par2.judilibre.io/healthcheck
-status: up
+status: down
 code: 200
-responseTime: 1278
-lastUpdated: 2021-11-01T07:41:54.111Z
+responseTime: 1244
+lastUpdated: 2021-11-01T08:54:53.614Z
 startTime: Sat Sep 04 2021 09:09:55 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
