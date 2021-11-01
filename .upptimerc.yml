@@ -13,26 +13,26 @@ sites:
       - "KeyId: $API_KEY_PROD"
     maxResponseTime: 2000
     __dangerous__body_down_if_text_missing: disponible
-  - name: search.judilibre.io healthcheck
-    url: https://search.judilibre.io/healthcheck
-    expectedStatusCodes: [200]
-    __dangerous__body_down_if_text_missing: disponible
-    maxResponseTime: 2000
-  - name: search.prod-par2.judilibre.io healthcheck
-    url: https://search.prod-par2.judilibre.io/healthcheck
-    expectedStatusCodes: [200]
-    maxResponseTime: 2000
-    __dangerous__body_down_if_text_missing: disponible
-  - name: search.prod-par1.judilibre.io healthcheck
-    url: https://search.prod-par1.judilibre.io/healthcheck
-    expectedStatusCodes: [200]
-    maxResponseTime: 2000
-    __dangerous__body_down_if_text_missing: disponible
-  - name: search.dev.judilibre.io healthcheck
-    url: https://search.dev.judilibre.io/healthcheck
-    expectedStatusCodes: [200]
-    maxResponseTime: 2000
-    __dangerous__body_down_if_text_missing: disponible
+  # - name: search.judilibre.io healthcheck
+  #   url: https://search.judilibre.io/healthcheck
+  #   expectedStatusCodes: [200]
+  #   __dangerous__body_down_if_text_missing: disponible
+  #   maxResponseTime: 2000
+  # - name: search.prod-par2.judilibre.io healthcheck
+  #   url: https://search.prod-par2.judilibre.io/healthcheck
+  #   expectedStatusCodes: [200]
+  #   maxResponseTime: 2000
+  #   __dangerous__body_down_if_text_missing: disponible
+  # - name: search.prod-par1.judilibre.io healthcheck
+  #   url: https://search.prod-par1.judilibre.io/healthcheck
+  #   expectedStatusCodes: [200]
+  #   maxResponseTime: 2000
+  #   __dangerous__body_down_if_text_missing: disponible
+  # - name: search.dev.judilibre.io healthcheck
+  #   url: https://search.dev.judilibre.io/healthcheck
+  #   expectedStatusCodes: [200]
+  #   maxResponseTime: 2000
+  #   __dangerous__body_down_if_text_missing: disponible
   - name: sandbox-api.piste.gouv.fr healthcheck
     url: https://sandbox-api.piste.gouv.fr/cassation/judilibre/v1.0/healthcheck
     expectedStatusCodes: [200]
