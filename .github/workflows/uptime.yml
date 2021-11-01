@@ -28,7 +28,7 @@ jobs:
         run: |
           IP=$(curl -s ipinfo.io/ip)
           echo ${IP}
-          echo ${IP} | grep -q '20.120' && exit 2
+          if [ "${IP}" == "20.120."* ];then exit 2;fi
       - name: Check endpoint status
         uses: upptime/uptime-monitor@v1.26.4
         with:
