@@ -24,6 +24,9 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
+      - name: Exit if bad IP
+        run: |
+          curl -s ipinfo.io/ip | egrep -q '^20.120' && exit 1
       - name: Check endpoint status
         uses: upptime/uptime-monitor@v1.26.4
         with:
