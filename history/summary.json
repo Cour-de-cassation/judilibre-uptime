@@ -7,14 +7,14 @@
     "status": "up",
     "uptime": "99.93%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.62%",
+    "uptimeWeek": "99.80%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.93%",
-    "time": 1971,
-    "timeDay": 3111,
-    "timeWeek": 3087,
-    "timeMonth": 2933,
-    "timeYear": 1971,
+    "time": 1976,
+    "timeDay": 3232,
+    "timeWeek": 3055,
+    "timeMonth": 2968,
+    "timeYear": 1976,
     "dailyMinutesDown": {
       "2022-06-19": 20,
       "2022-06-17": 18,
@@ -34,16 +34,16 @@
     "icon": "https://favicons.githubusercontent.com/api.piste.gouv.fr",
     "slug": "api-piste-gouv-fr-healthcheck",
     "status": "up",
-    "uptime": "99.83%",
+    "uptime": "99.84%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.51%",
     "uptimeMonth": "99.77%",
-    "uptimeYear": "99.83%",
-    "time": 1490,
-    "timeDay": 813,
-    "timeWeek": 815,
-    "timeMonth": 1019,
-    "timeYear": 1490,
+    "uptimeYear": "99.84%",
+    "time": 1489,
+    "timeDay": 989,
+    "timeWeek": 837,
+    "timeMonth": 1026,
+    "timeYear": 1489,
     "dailyMinutesDown": {
       "2022-06-20": 49,
       "2022-06-12": 29,
@@ -64,8 +64,7 @@
       "2022-01-10": 35,
       "2021-11-30": 101,
       "2021-10-17": 20,
-      "2021-10-02": 8,
-      "2021-10-01": 51
+      "2021-10-02": 8
     }
   },
   {
@@ -74,20 +73,19 @@
     "icon": "https://favicons.githubusercontent.com/search.judilibre.io",
     "slug": "search-judilibre-io-healthcheck",
     "status": "up",
-    "uptime": "99.98%",
+    "uptime": "99.99%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.98%",
+    "uptimeYear": "99.99%",
     "time": 1216,
-    "timeDay": 1198,
-    "timeWeek": 1239,
-    "timeMonth": 1163,
+    "timeDay": 1107,
+    "timeWeek": 1052,
+    "timeMonth": 1179,
     "timeYear": 1216,
     "dailyMinutesDown": {
       "2022-03-25": 17,
-      "2022-01-25": 16,
-      "2021-10-01": 43
+      "2022-01-25": 16
     }
   },
   {
@@ -96,22 +94,20 @@
     "icon": "https://favicons.githubusercontent.com/search.prod-par2.judilibre.io",
     "slug": "search-prod-par2-judilibre-io-healthcheck",
     "status": "up",
-    "uptime": "99.87%",
+    "uptime": "99.89%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.87%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "99.89%",
     "time": 1372,
-    "timeDay": 734,
-    "timeWeek": 1719,
-    "timeMonth": 1375,
+    "timeDay": 1134,
+    "timeWeek": 1007,
+    "timeMonth": 1391,
     "timeYear": 1372,
     "dailyMinutesDown": {
-      "2022-06-17": 11,
       "2022-03-25": 17,
       "2022-01-27": 322,
-      "2021-10-29": 26,
-      "2021-10-01": 71
+      "2021-10-29": 26
     }
   },
   {
@@ -120,22 +116,20 @@
     "icon": "https://favicons.githubusercontent.com/search.prod-par1.judilibre.io",
     "slug": "search-prod-par1-judilibre-io-healthcheck",
     "status": "up",
-    "uptime": "99.86%",
+    "uptime": "99.87%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.94%",
-    "uptimeYear": "99.86%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.87%",
     "time": 1307,
-    "timeDay": 481,
-    "timeWeek": 1402,
-    "timeMonth": 1180,
+    "timeDay": 1095,
+    "timeWeek": 799,
+    "timeMonth": 1201,
     "timeYear": 1307,
     "dailyMinutesDown": {
-      "2022-06-17": 11,
       "2022-06-03": 16,
       "2022-04-13": 37,
-      "2022-02-25": 384,
-      "2021-10-01": 39
+      "2022-02-25": 384
     }
   },
   {
@@ -146,16 +140,15 @@
     "status": "up",
     "uptime": "99.91%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.98%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.91%",
-    "time": 1301,
-    "timeDay": 1019,
-    "timeWeek": 1725,
-    "timeMonth": 1436,
-    "timeYear": 1301,
+    "time": 1300,
+    "timeDay": 659,
+    "timeWeek": 754,
+    "timeMonth": 1445,
+    "timeYear": 1300,
     "dailyMinutesDown": {
-      "2022-06-17": 10,
       "2021-11-11": 39,
       "2021-10-29": 250
     }
@@ -166,15 +159,15 @@
     "icon": "https://favicons.githubusercontent.com/sandbox-api.piste.gouv.fr",
     "slug": "sandbox-api-piste-gouv-fr-healthcheck",
     "status": "up",
-    "uptime": "98.59%",
+    "uptime": "98.61%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.63%",
     "uptimeMonth": "99.86%",
-    "uptimeYear": "98.59%",
+    "uptimeYear": "98.61%",
     "time": 1179,
-    "timeDay": 729,
-    "timeWeek": 1612,
-    "timeMonth": 1238,
+    "timeDay": 1080,
+    "timeWeek": 1611,
+    "timeMonth": 1250,
     "timeYear": 1179,
     "dailyMinutesDown": {
       "2022-06-20": 38,
@@ -200,8 +193,7 @@
       "2021-10-14": 21,
       "2021-10-10": 21,
       "2021-10-07": 16,
-      "2021-10-02": 7,
-      "2021-10-01": 34
+      "2021-10-02": 7
     }
   }
 ]
