@@ -115,9 +115,9 @@
     "url": "https://search.prod-par1.judilibre.io/healthcheck",
     "icon": "https://favicons.githubusercontent.com/search.prod-par1.judilibre.io",
     "slug": "search-prod-par1-judilibre-io-healthcheck",
-    "status": "up",
+    "status": "down",
     "uptime": "99.87%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.87%",
@@ -127,6 +127,7 @@
     "timeMonth": 1198,
     "timeYear": 1303,
     "dailyMinutesDown": {
+      "2022-06-27": 0,
       "2022-06-03": 16,
       "2022-04-13": 37,
       "2022-02-25": 384
