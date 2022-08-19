@@ -18,6 +18,11 @@ sites:
     expectedStatusCodes: [200, 301]
     __dangerous__body_down_if_text_missing: disponible
     maxResponseTime: 2000
+  - name: search.judilibre.io search API
+    url: https://search.judilibre.io/search?query=test
+    expectedStatusCodes: [200, 301]
+    __dangerous__body_down_if_text_missing: test
+    maxResponseTime: 2000
   - name: search.prod-par2.judilibre.io healthcheck
     url: https://search.prod-par2.judilibre.io/healthcheck
     expectedStatusCodes: [200, 301]
