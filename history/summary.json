@@ -228,17 +228,17 @@
     "url": "https://sandbox-api.piste.gouv.fr/cassation/judilibre/v1.0/healthcheck",
     "icon": "https://icons.duckduckgo.com/ip3/sandbox-api.piste.gouv.fr.ico",
     "slug": "sandbox-api-piste-gouv-fr-healthcheck",
-    "status": "up",
+    "status": "degraded",
     "uptime": "99.63%",
-    "uptimeDay": "92.44%",
-    "uptimeWeek": "95.99%",
-    "uptimeMonth": "98.67%",
+    "uptimeDay": "94.00%",
+    "uptimeWeek": "95.98%",
+    "uptimeMonth": "98.66%",
     "uptimeYear": "99.43%",
-    "time": 1786,
-    "timeDay": 3126,
-    "timeWeek": 2472,
-    "timeMonth": 2231,
-    "timeYear": 1851,
+    "time": 1788,
+    "timeDay": 3004,
+    "timeWeek": 2475,
+    "timeMonth": 2235,
+    "timeYear": 1852,
     "dailyMinutesDown": {
       "2023-03-16": 66,
       "2023-03-15": 43,
@@ -302,8 +302,7 @@
       "2022-10-06": 151,
       "2022-10-01": 27,
       "2022-09-30": 21,
-      "2022-09-28": 57,
-      "2022-09-27": 23
+      "2022-09-28": 57
     }
   }
 ]
