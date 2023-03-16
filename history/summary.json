@@ -37,13 +37,13 @@
     "slug": "api-piste-gouv-fr-healthcheck",
     "status": "up",
     "uptime": "98.67%",
-    "uptimeDay": "93.94%",
+    "uptimeDay": "95.42%",
     "uptimeWeek": "97.87%",
     "uptimeMonth": "98.88%",
     "uptimeYear": "98.10%",
     "time": 1577,
-    "timeDay": 2424,
-    "timeWeek": 2190,
+    "timeDay": 2803,
+    "timeWeek": 2037,
     "timeMonth": 1733,
     "timeYear": 1540,
     "dailyMinutesDown": {
@@ -229,17 +229,17 @@
     "url": "https://sandbox-api.piste.gouv.fr/cassation/judilibre/v1.0/healthcheck",
     "icon": "https://icons.duckduckgo.com/ip3/sandbox-api.piste.gouv.fr.ico",
     "slug": "sandbox-api-piste-gouv-fr-healthcheck",
-    "status": "up",
+    "status": "degraded",
     "uptime": "99.63%",
-    "uptimeDay": "90.49%",
+    "uptimeDay": "90.47%",
     "uptimeWeek": "95.48%",
     "uptimeMonth": "98.55%",
     "uptimeYear": "99.43%",
-    "time": 1793,
-    "timeDay": 2904,
-    "timeWeek": 2482,
-    "timeMonth": 2243,
-    "timeYear": 1855,
+    "time": 1795,
+    "timeDay": 2881,
+    "timeWeek": 2484,
+    "timeMonth": 2246,
+    "timeYear": 1856,
     "dailyMinutesDown": {
       "2023-03-16": 117,
       "2023-03-15": 43,
@@ -302,8 +302,7 @@
       "2022-10-07": 24,
       "2022-10-06": 151,
       "2022-10-01": 27,
-      "2022-09-30": 21,
-      "2022-09-28": 33
+      "2022-09-30": 21
     }
   }
 ]
