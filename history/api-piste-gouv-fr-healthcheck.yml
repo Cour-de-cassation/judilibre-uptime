@@ -1,7 +1,7 @@
 url: https://api.piste.gouv.fr/cassation/judilibre/v1.0/healthcheck
-status: down
-code: 500
-responseTime: 6491
-lastUpdated: 2023-03-24T11:35:40.372Z
+status: degraded
+code: 200
+responseTime: 4540
+lastUpdated: 2023-03-24T11:59:03.142Z
 startTime: Mon Sep 27 2021 12:26:05 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
