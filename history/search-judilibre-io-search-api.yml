@@ -1,7 +1,7 @@
 url: https://search.judilibre.io/search?query=test
-status: up
-code: 200
-responseTime: 216
-lastUpdated: 2023-04-22T23:10:10.945Z
+status: down
+code: 500
+responseTime: 177
+lastUpdated: 2023-04-23T22:25:08.225Z
 startTime: Fri Aug 19 2022 14:20:42 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
